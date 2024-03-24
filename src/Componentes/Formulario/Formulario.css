@@ -1,0 +1,36 @@
+/* Importando as fontes que serão usadas no formulário: */
+
+@import url('https://fonts.googleapis.com/css2?family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,&display=swap');
+
+.formulario {
+
+    display: flex;
+    justify-content: center;
+    margin: 80px 0;
+
+}
+
+.formulario form {
+
+    max-width: 100%;
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    padding: 36px 64px;
+    box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.1);
+
+    font-weight: 500;
+
+}
+
+.formulario__titulo {
+
+    font-size: 32px;
+    font-weight: 300;
+    font-family: 'Sarabun', sans-serif;
+    font-style: normal;
+
+}
+
+.botao {
+    text-align: left;
+}
